@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #14183a;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 1pc;
+    background-color: #343b7c6b;
+}
+
+.main{
+    padding: 2pc;
+}
+
+.main h1{
+    color: white;
+    text-align: center;
+}
+
+.txt-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2pc;
+}
+
+.txt-area input{
+    width: 70%;
+    padding: 1%;
+    background-color: transparent;
+    border: 1px solid #8a49fb;
+    outline: 1px solid #8a49fb;
+    color: white;
+    border-radius: 2pt 0 0 2pt;
+}
+
+.txt-area button{
+    padding: 1% 2%;
+    background-color: #8a49fb;
+    color: white;
+    border: 2px solid #8a49fb;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.txt-area button:hover{
+    background-color: #45267a;
+    border-radius: 0 2pt 2pt 0;
+}
+
+.container{
+    width: 75%;
+    margin: 2pc auto;    
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area button{
+    padding: 1% 2%;
+    background-color: #8a49fb;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 2pc;
+}
+
+.area button:hover{
+    background-color: #45267a;
+}
+
+::-webkit-scrollbar{
+display: none;
+}
+
+#box{
+    width: 100%;
+    color: white;
+    padding: 1pc;
+    background-color: #8a49fb;
+    border-radius: 2pt;
+    margin-top: 1pc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#box span{
+    cursor: pointer;
+    background: transparent;
+    transition: .3s;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#box li{
+    list-style: none;
+}
+
+#box li.checked{
+    text-decoration: line-through;
+    color: #d1d0d0;
+}
